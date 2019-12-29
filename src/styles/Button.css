@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 67.5%;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+i.fas, span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #20f67c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}

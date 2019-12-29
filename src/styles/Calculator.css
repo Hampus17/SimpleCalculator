@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;
+}
+
+#wrapper h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+    height: 5rem;
+    padding: 1rem;
+    background-color: #1d212a;
+}
+
+#wrapper p:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #262b36;
+    height: 2rem;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+#calcBody {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: 
+    "preview preview preview preview"
+    "AC remove sqrt division"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three addition"
+    "zero zero dot equals";
+    grid-gap: 0.4rem;
+    justify-content: center;
+    background-color: #e1f6fc;
+    width: 30rem;
+    height: 30rem;
+    padding: 1.5rem;
+    margin: 15vh auto;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 3px 14px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 14px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 14px -4px rgba(0,0,0,0.75);
+}
+
+
+
+#calcBody #preview {
+    overflow-x: hidden;
+    padding: 0.5rem;
+    font-size: 2rem;
+    width: 100%;
+    justify-self: center;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.1rem;
+    background-color: #1d212a;
+    grid-area: preview;
+    resize: none;
+}
+
+.AC {
+    grid-area: AC;
+}
+
+.remove {
+    grid-area: remove;
+}
+
+.sqrt {
+    grid-area: sqrt;
+}
+
+.division {
+    grid-area: division;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.subtract {
+    grid-area: subtract;
+}
+
+.addition {
+    grid-area: addition;
+}
+
+.equals {
+    grid-area: equals;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.num1 {
+    grid-area: one;
+}
+
+.num2 {
+    grid-area: two;
+}
+
+.num3 {
+    grid-area: three;
+}
+
+.num4 {
+    grid-area: four;
+}
+
+.num5 {
+    grid-area: five;
+}
+
+.num6 {
+    grid-area: six;
+}
+
+.num7{
+    grid-area: seven;
+}
+
+.num8{
+    grid-area: eight;
+}
+
+.num9 {
+    grid-area: nine;
+}
+
+.num0 {
+    grid-area: zero;
+}
